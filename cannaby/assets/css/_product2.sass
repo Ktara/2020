@@ -1,0 +1,411 @@
+.product2_main
+    position: relative
+    width: 100%
+    height: 100vh
+    padding: 0 5vw
+    background-repeat: no-repeat
+    -webkit-background-size: cover
+    background-size: cover
+    background-position: center
+    &_box
+        position: relative
+        width: 100%
+        height: 100vh
+        display: flex
+        flex-direction: column            
+        align-items: center
+        justify-content: center
+    &_header
+        color: $white
+        @extend .rob-bold
+        font-size: 120px
+        text-align: center
+        @media screen and (max-width: 1440px)
+            font-size: 100px
+    &_sub_header
+        width: 80%
+        color: $white
+        @extend .rob-light
+        font-size: 28px
+        line-height: 32px
+        text-align: center
+        padding-top: 30px
+        @media screen and (max-width: 1440px)
+            font-size: 24px
+            line-height: 28px
+            width: 100%
+    &_btn
+        position: relative
+        display: inline-block
+        width: auto
+        color: $white
+        font-size: 36px
+        text-decoration: none
+        padding-top: 50px
+        text-transform: uppercase
+        &::after
+            content: ''
+            position: absolute
+            display: block
+            width: 100%
+            height: 2px
+            left: 0
+            bottom: -5px
+            background-color: $white
+
+
+
+
+.product2_info_list
+    position: relative
+    width: 100%
+    height: 50vh
+    padding: 0 5vw
+    &_box
+        position: relative
+        display: flex
+        flex-direction: column            
+        align-items: center
+        justify-content: center
+        width: 100%
+        height: 50vh
+    &_image
+        height: 50px
+        img 
+            height: 100%
+    &_title
+        color: $green
+        font-size: 24px        
+        margin-top: 20px
+    &_text
+        text-align: center
+        margin-top: 20px   
+        p 
+            color: $green
+            font-size: 18px
+            line-height: 26px
+            @extend .rob-light       
+            @media screen and (max-width: 1440px)
+                font-size: 16px
+                line-height: 24px     
+
+
+
+
+
+.product2_promo
+    position: relative
+    width: 100%
+    height: 70vh
+    padding: 0 5vw
+    overflow: hidden
+    &_image_box
+        position: relative
+        width: 100%
+        height: 70vh
+    &_image
+        position: relative
+        height: 100%
+        z-index: 10
+        img 
+            height: 100%
+            margin-left: -5%
+            margin-bottom: -5%
+    &_circle
+        position: absolute
+        display: block
+        width: 700px
+        height: 700px
+        top: 15%
+        left: 0
+        background-color: $grey
+        border-radius: 100% 
+        z-index: 0  
+        @media screen and (max-width: 1440px)
+            width: 600px
+            height: 600px 
+    &_text_box
+        position: relative 
+        display: flex
+        flex-direction: column            
+        align-items: center
+        justify-content: center
+        width: 100%
+        height: 70vh   
+    &_title
+        font-size: 120px
+        color: $white
+        @extend .rob-bold
+        @media screen and (max-width: 1440px)
+            font-size: 100px
+    &_text
+        font-size: 22px
+        line-height: 28px
+        @extend .rob-light
+        color: $white
+        text-align: center
+        margin-top: 30px
+        @media screen and (max-width: 1440px)
+            font-size: 20px
+            line-height: 26px
+    &_btn
+        position: relative
+        display: inline-block
+        width: auto
+        text-decoration: none
+        color: $white
+        font-size: 32px
+        @extend .rob-bold
+        margin-top: 30px
+        text-transform: uppercase
+        &::after
+            content: ''
+            position: absolute
+            display: block
+            width: 100%
+            height: 2px
+            left: 0
+            bottom: -5px
+            background-color: $white
+
+
+
+
+
+.product2_popular
+    position: relative
+    width: 100%    
+    padding: 0 5vw
+    &_header
+        color: $green
+        font-size: 36px
+        @extend .rob-light
+        text-align: center
+        margin-top: 50px
+
+
+
+
+.product2_about
+    position: relative
+    width: 100%
+    height: 90vh
+    padding: 0 5vw
+    background-repeat: no-repeat
+    -webkit-background-size: cover
+    background-size: cover
+    background-position: center
+    margin-top: 80px    
+    &_box
+        position: relative
+        width: 80%
+        height: 90vh
+        margin-left: 10%
+        display: flex
+        flex-direction: column            
+        align-items: center
+        justify-content: center
+        @media screen and (max-width: 1440px)
+            width: 90%
+            margin-left: 5%
+    &_header
+        color: #18635f
+        @extend .rob-bold
+        font-size: 70px
+        text-align: center
+        @media screen and (max-width: 1440px)
+            font-size: 60px
+    &_sub_header        
+        color: $light-black
+        @extend .rob-light
+        font-size: 24px
+        line-height: 28px
+        text-align: center
+        padding-top: 30px
+        @media screen and (max-width: 1440px)
+            font-size: 22px
+            line-height: 26px            
+    &_btn
+        position: relative
+        display: inline-block
+        width: auto
+        color: $light-black
+        font-size: 36px
+        text-decoration: none
+        padding-top: 50px
+        text-transform: uppercase
+        @extend .rob-bold
+        &::after
+            content: ''
+            position: absolute
+            display: block
+            width: 100%
+            height: 2px
+            left: 0
+            bottom: -5px
+            background-color: $light-black
+
+
+
+
+
+.product2_other
+    position: relative
+    display: block
+    width: 100%    
+    padding: 0 5vw
+    margin-top: 80px 
+
+
+
+
+
+.product2_newsletter
+    position: relative
+    display: flex
+    flex-direction: column            
+    align-items: center
+    justify-content: center
+    width: 100%  
+    height: 40vh  
+    padding: 0 5vw
+    margin-top: 80px 
+    background-repeat: no-repeat
+    -webkit-background-size: cover
+    background-size: cover
+    background-position: center
+    &_header
+        color: $green
+        font-size: 36px
+        @extend .rob-light 
+        text-transform: uppercase
+        text-align: center
+    &_sub_header
+        width: 50%        
+        color: $light-black
+        @extend .rob-light
+        font-size: 24px
+        line-height: 28px
+        text-align: center
+        padding-top: 30px
+        @media screen and (max-width: 1440px)
+            font-size: 22px
+            line-height: 26px 
+    &_form
+        position: relative
+        display: flex
+        align-items: center
+        width: 60% 
+        height: 52px
+        margin-top: 50px
+        .show_search
+            position: absolute
+            display: flex
+            justify-content: flex-end
+            align-items: center
+            width: 100%
+            height: 52px
+            top: 0
+            left: 0
+            background-color: $green
+            border-radius: 50px
+            z-index: 0
+            cursor: pointer
+            img 
+                width: 40px                    
+                margin-right: calc(4% - 18px) 
+        input 
+            width: 92%
+            height: 50px
+            margin-left: 1px            
+            border-radius: 50px
+            outline: none
+            border: none
+            background-color: $light-grey
+            z-index: 10
+            text-indent: 20px               
+            font-size: 18px   
+            @extend .rob-light
+            color: $light-black
+        input::-moz-placeholder
+            color: $light-black
+        input::-webkit-input-placeholder
+            color: $light-black
+        input:-ms-input-placeholder
+            color: $light-black
+        input::-ms-input-placeholder
+            color: $light-black
+        input::placeholder
+            color: $light-black
+        input:focus::placeholder
+            color: $light-black
+            outline: none
+
+
+
+
+
+.product2_blog
+    position: relative
+    display: block
+    width: 100%    
+    padding: 0 5vw
+    margin-top: 80px 
+    &_header
+        color: $green
+        font-size: 36px
+        @extend .rob-light 
+        text-transform: uppercase
+        text-align: center
+    &_box
+        margin-top: 50px
+        height: 60vh
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        &_point
+            position: relative
+            display: block
+            width: 100%
+            height: 100%
+            border-radius: 10px
+            overflow: hidden 
+            .filter
+                position: absolute
+                display: block
+                width: 100%
+                height: 100%
+                top: 0
+                left: 0
+                z-index: 2
+                background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(13, 14, 15, 0))
+            &_image
+                height: 100%
+                z-index: 0                
+                img 
+                    height: 100%   
+            &_text  
+                position: absolute
+                width: 90%
+                height: auto
+                left: 5%
+                bottom: 20px    
+                z-index: 10   
+            &_data
+                font-size: 18px
+                color: $white
+                @extend .rob-light
+            &_title
+                font-size: 30px
+                color: $white               
+                margin-top: 10px
+    .row .col-lg-6:nth-child(2) .product2_blog_box .product2_blog_box_point        
+        height: calc(50% - 15px)        
+        .product2_blog_box_point_image
+            width: 100%
+            height: auto
+            img 
+                position: absolute
+                bottom: -10%     
+                width: 100%  
+                height: auto          
