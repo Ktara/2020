@@ -5,6 +5,41 @@
     height: 100vh   
     padding: 0 5vw
     background-color: #d9d9d9
+    &_slider_box
+        position: relative
+        display: flex
+        justify-content: space-between
+        width: 100%
+        height: 100vh
+    &_slider
+        position: relative        
+        width: 25%
+        margin-top: 10vh 
+        z-index: 20 
+        transition: all 0.3s
+        .slick-current
+            width: calc(100% - 2px) !important          
+            border: 1px solid $green    
+            outline: none                      
+            -webkit-appearance: none
+            -moz-appearance: none
+            appearance: none
+    &_slide
+        position: relative        
+        cursor: pointer
+        border: 1px solid #d9d9d9
+        transition: all 0.3s
+        img 
+            width: 100%
+    &_slider_nav
+        width: 70%
+        position: relative
+        display: flex
+        align-items: center
+    &_slide_nav        
+        cursor: pointer
+        img 
+            width: 100%
     &_card
         position: relative
         width: 100%
