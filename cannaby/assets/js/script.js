@@ -13,3 +13,11 @@ $('.product3_main_slider_nav').slick({
     asNavFor: '.product3_main_slider',
     arrows: false
 });
+
+
+$('.nav_header_mob_burger').click(function(){
+    $('.nav_header_mob_menu').addClass('nav_header_mob_menu_active');    
+});
+$('.nav_header_mob_menu_close').click(function(){
+    $('.nav_header_mob_menu').removeClass('nav_header_mob_menu_active');    
+});
